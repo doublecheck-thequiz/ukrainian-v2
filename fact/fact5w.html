@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="UTF-8">
+  <title> doublecheck </title>
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Group 01">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <link rel="icon" href="../assets/favicon.png" sizes="16x16" type="image/png">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/fact.css">
+  <!-- JS -->
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/gsap.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/p5.min.js"></script>
+  <script src="../js/sketch-factwrong5.js"></script>
+</head>
+
+<body id="w" class="animate-in">
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <h1 class="db-w"> doublecheck </h1>
+        </div>
+        <div class="endb col-lg-2 offset-lg-8">
+          <a href="../an-neutral.html">
+            <svg id="end1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 195.86 72.13">
+              <defs>
+                <style>
+                  .cls-001 {
+                    fill: none;
+                  }
+
+                  .cls-002,
+                  .cls-005 {
+                    fill: #fff;
+                  }
+
+                  .cls-003 {
+                    fill: url("#pois_bianchi");
+                  }
+
+                  .cls-004 {
+                    stroke: #fff;
+                    stroke-miterlimit: 10;
+                    stroke-width: 1.81px;
+                  }
+
+                  .cls-005 {
+                    font-size: 40px;
+                    font-family: var(--font-semibold);
+                    font-weight: 600;
+                  }
+
+                  .cls-006 {
+                    font-family: var(--font-regular);
+                    font-weight: 400;
+                  }
+                </style>
+                <pattern id="pois_bianchi" data-name="pois bianchi" width="110" height="110" patternUnits="userSpaceOnUse" viewBox="0 0 110 110">
+                  <rect class="cls-001" width="110" height="110" />
+                  <circle class="cls-002" cx="110" cy="110" r="1.32" />
+                  <circle class="cls-002" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="110" r="1.32" />
+                  <circle class="cls-002" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="110" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="110" r="1.32" />
+                  <circle class="cls-002" r="1.32" />
+                  <circle class="cls-002" cx="11" r="1.32" />
+                  <circle class="cls-002" cx="22" r="1.32" />
+                  <circle class="cls-002" cx="33" r="1.32" />
+                  <circle class="cls-002" cx="44" r="1.32" />
+                  <circle class="cls-002" cx="55" r="1.32" />
+                  <circle class="cls-002" cx="65.45" r="1.32" />
+                  <circle class="cls-002" cx="77.55" r="1.32" />
+                  <circle class="cls-002" cx="88" r="1.32" />
+                  <circle class="cls-002" cx="99" r="1.32" />
+                  <circle class="cls-002" cx="110" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="5.5" r="1.32" />
+                  <circle class="cls-002" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="11" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="16.5" r="1.32" />
+                  <circle class="cls-002" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="22" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="27.5" r="1.32" />
+                  <circle class="cls-002" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="33" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="38.5" r="1.32" />
+                  <circle class="cls-002" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="44" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="49.5" r="1.32" />
+                  <circle class="cls-002" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="55" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="60.5" r="1.32" />
+                  <circle class="cls-002" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="66" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="71.5" r="1.32" />
+                  <circle class="cls-002" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="77" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="82.5" r="1.32" />
+                  <circle class="cls-002" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="88" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="93.5" r="1.32" />
+                  <circle class="cls-002" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="99" r="1.32" />
+                  <circle class="cls-002" cx="5.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="16.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="27.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="38.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="49.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="60.25" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="71.75" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="82.75" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="93.75" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cx="104.75" cy="104.5" r="1.32" />
+                  <circle class="cls-002" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="11" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="22" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="33" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="44" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="55" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="65.45" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="77.55" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="88" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="99" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="110" cy="110" r="1.32" />
+                  <circle class="cls-002" r="1.32" />
+                  <circle class="cls-002" cy="11" r="1.32" />
+                  <circle class="cls-002" cy="22" r="1.32" />
+                  <circle class="cls-002" cy="33" r="1.32" />
+                  <circle class="cls-002" cy="44" r="1.32" />
+                  <circle class="cls-002" cy="55" r="1.32" />
+                  <circle class="cls-002" cy="66" r="1.32" />
+                  <circle class="cls-002" cy="77" r="1.32" />
+                  <circle class="cls-002" cy="88" r="1.32" />
+                  <circle class="cls-002" cy="99" r="1.32" />
+                  <circle class="cls-002" cy="110" r="1.32" />
+                  <circle class="cls-002" cx="110" r="1.32" />
+                  <circle class="cls-002" r="1.32" />
+                  <circle class="cls-002" cx="11" r="1.32" />
+                  <circle class="cls-002" cx="22" r="1.32" />
+                  <circle class="cls-002" cx="33" r="1.32" />
+                  <circle class="cls-002" cx="44" r="1.32" />
+                  <circle class="cls-002" cx="55" r="1.32" />
+                  <circle class="cls-002" cx="65.45" r="1.32" />
+                  <circle class="cls-002" cx="77.55" r="1.32" />
+                  <circle class="cls-002" cx="88" r="1.32" />
+                  <circle class="cls-002" cx="99" r="1.32" />
+                  <circle class="cls-002" cx="110" r="1.32" />
+                  <circle class="cls-002" r="1.32" />
+                </pattern>
+              </defs>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="BOTTONI">
+                  <g id="End01w">
+                    <rect id="ombra" class="cls-003" x="10.16" y="9.9" width="185.69" height="62.22" />
+                    <rect id="colore" class="cls-004" x="0.9" y="0.9" width="180.71" height="62.22" />
+                    <text class="cls-005" transform="translate(8.59 44.96)">кінець
+                      <tspan class="cls-006" x="138.8" y="0">&gt;</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="fact col-lg-12">
+        <svg id="HINT" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1426.15 684.77">
+          <defs>
+            <style>
+              .cls-01 {
+                fill: #fff;
+              }
+
+              .cls-01,
+              .cls-02,
+              .cls-03 {
+                stroke: #000;
+                stroke-miterlimit: 10;
+              }
+
+              .cls-01,
+              .cls-03 {
+                stroke-width: 2px;
+              }
+
+              .cls-02,
+              .cls-03 {
+                fill: none;
+              }
+
+              .cls-02 {
+                stroke-width: 3px;
+              }
+
+              .cls-04 {
+                font-size: 25px;
+                font-family: var(--font-regular);
+              }
+
+              .cls-05 {
+                letter-spacing: -0.02em;
+              }
+
+              .cls-06 {
+                letter-spacing: -0.07em;
+              }
+
+              .cls-07 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-08 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-09 {
+                letter-spacing: -0.05em;
+              }
+
+              .cls-010 {
+                letter-spacing: -0.04em;
+              }
+
+              .cls-011 {
+                letter-spacing: -0.03em;
+              }
+
+              .cls-012 {
+                letter-spacing: -0.05em;
+              }
+
+              .cls-013 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-014 {
+                font-size: 40px;
+                font-family: var(--font-bold);
+                font-weight: 700;
+              }
+
+              .cls-015 {
+                letter-spacing: -0.02em;
+              }
+
+              .cls-016 {
+                letter-spacing: 0.04em;
+              }
+
+              .cls-017 {
+                letter-spacing: -0.02em;
+              }
+
+              .cls-018 {
+                letter-spacing: 0;
+              }
+
+              .cls-019 {
+                letter-spacing: 0;
+              }
+
+              .cls-020 {
+                letter-spacing: 0.01em;
+              }
+
+              .cls-021 {
+                letter-spacing: 0;
+              }
+
+              .cls-022 {
+                letter-spacing: -0.03em;
+              }
+
+              .cls-023 {
+                letter-spacing: 0.04em;
+              }
+
+              .cls-024 {
+                letter-spacing: -0.04em;
+              }
+
+              .cls-025 {
+                letter-spacing: 0;
+              }
+
+              .cls-026 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-027 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-028 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-029 {
+                letter-spacing: 0;
+              }
+
+              .cls-030 {
+                letter-spacing: 0;
+              }
+
+              .cls-031 {
+                letter-spacing: 0;
+              }
+
+              .cls-032 {
+                letter-spacing: -0.01em;
+              }
+
+              .cls-033 {
+                letter-spacing: 0;
+              }
+            </style>
+          </defs>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Q5hint">
+              <g id="BASE">
+                <rect id="BASE-2" data-name="BASE" class="cls-01" x="1" y="1" width="1424.15" height="682.77" />
+                <line id="STROKE" class="cls-02" x1="1" y1="76.38" x2="1425.15" y2="76.38" />
+              </g>
+              <g id="IMMAGINE">
+                <image width="450" height="253" transform="translate(31 106.07) scale(2.15)" xlink:href="../assets/Greta/GretaFake.jpg" />
+                <rect id="STROKE-2" data-name="STROKE" class="cls-03" x="31" y="106.07" width="967.7" height="547.7" />
+              </g>
+              <g id="TESTO">
+                <text class="cls-04" transform="translate(1018.7 127.49)">АКТИВІСТКА-ПІДЛІ<tspan class="cls-05" x="216.05" y="0">Т</tspan>
+                  <tspan x="228.67" y="0">ОК ҐРЕ</tspan>
+                  <tspan class="cls-06" x="307.72" y="0">Т</tspan>
+                  <tspan x="319.17" y="0">А
+                  </tspan>
+                  <tspan x="0" y="30">ТУНБЕРГ СТРІЛЯЄ З РУШНИЦІ —
+                  </tspan>
+                  <tspan x="0" y="60">12 г</tspan>
+                  <tspan class="cls-07" x="39.92" y="60">р</tspan>
+                  <tspan class="cls-05" x="54.15" y="60">у</tspan>
+                  <tspan x="65.77" y="60">дня 2019 р.</tspan>
+                  <tspan x="0" y="120">У г</tspan>
+                  <tspan class="cls-07" x="31.07" y="120">р</tspan>
+                  <tspan class="cls-05" x="45.3" y="120">у</tspan>
+                  <tspan x="56.92" y="120">дні 2019 року в соцмережах
+                  </tspan>
+                  <tspan x="0" y="150">п</tspan>
+                  <tspan class="cls-08" x="14.7" y="150">о</tspan>
+                  <tspan x="28.73" y="150">чали поширювати відео, в
+                  </tspan>
+                  <tspan x="0" y="180">я</tspan>
+                  <tspan class="cls-05" x="13.2" y="180">к</tspan>
+                  <tspan x="25.3" y="180">ому активістка-підлі</tspan>
+                  <tspan class="cls-08" x="258.2" y="180">т</tspan>
+                  <tspan x="269.29" y="180">ок
+                  </tspan>
+                  <tspan class="cls-09" x="302.22" y="180">Ґ</tspan>
+                  <tspan x="313.64" y="180">рета
+                  </tspan>
+                  <tspan class="cls-010" x="0" y="210">Т</tspan>
+                  <tspan x="12.1" y="210">унбенг ніби</tspan>
+                  <tspan class="cls-08" x="148.47" y="210">т</tspan>
+                  <tspan x="159.57" y="210">о стріляє з
+                  </tspan>
+                  <tspan class="cls-07" x="0" y="240">р</tspan>
+                  <tspan x="14.22" y="240">ушниці. За кілька днів йо</tspan>
+                  <tspan class="cls-08" x="307.12" y="240">г</tspan>
+                  <tspan x="317.14" y="240">о
+                  </tspan>
+                  <tspan x="0" y="270">пере</tspan>
+                  <tspan class="cls-011" x="55.77" y="270">г</tspan>
+                  <tspan x="65.32" y="270">лян</tspan>
+                  <tspan class="cls-05" x="107.22" y="270">у</tspan>
+                  <tspan x="118.85" y="270">ли понад мільйон
+                  </tspan>
+                  <tspan x="0" y="300">разів.
+                  </tspan>
+                  <tspan class="cls-08" x="71.6" y="300">О</tspan>
+                  <tspan x="89.75" y="300">днак насправді на відео
+                  </tspan>
+                  <tspan class="cls-05" x="0" y="330">к</tspan>
+                  <tspan x="12.1" y="330">ористувачка
+                  </tspan>
+                  <tspan class="cls-012" x="164.15" y="330">Т</tspan>
+                  <tspan x="176.07" y="330">віт</tspan>
+                  <tspan class="cls-013" x="207.17" y="330">т</tspan>
+                  <tspan x="218.27" y="330">ера на ім’я
+                  </tspan>
+                  <tspan x="0" y="360">Еммі.</tspan>
+                </text>
+                <text class="cls-014" transform="translate(31 51.53)">Зобра<tspan class="cls-015" x="119.28" y="0">ж</tspan>
+                  <tspan x="153.16" y="0">ення з помил</tspan>
+                  <tspan class="cls-015" x="420.96" y="0">к</tspan>
+                  <tspan x="444.56" y="0">овим підписом</tspan>
+                </text>
+                <text class="cls-04" transform="translate(1017.83 655.09)">
+                  <tspan class="cls-016">Д</tspan>
+                  <tspan class="cls-017" x="17.45" y="0">ж</tspan>
+                  <tspan class="cls-018" x="34.75" y="0">е</tspan>
+                  <tspan class="cls-019" x="48" y="0">р</tspan>
+                  <tspan class="cls-020" x="62.5" y="0">е</tspan>
+                  <tspan class="cls-021" x="76.16" y="0">л</tspan>
+                  <tspan class="cls-022" x="89.8" y="0">о</tspan>
+                  <tspan x="103.4" y="0">:
+                  </tspan>
+                  <tspan class="cls-023" x="115.85" y="0">ww</tspan>
+                  <tspan class="cls-024" x="154.85" y="0">w</tspan>
+                  <tspan class="cls-025" x="172.51" y="0">.</tspan>
+                  <tspan class="cls-026" x="178.87" y="0">s</tspan>
+                  <tspan class="cls-027" x="189.91" y="0">n</tspan>
+                  <tspan class="cls-028" x="204.3" y="0">o</tspan>
+                  <tspan class="cls-029" x="218.35" y="0">p</tspan>
+                  <tspan class="cls-030" x="232.74" y="0">e</tspan>
+                  <tspan class="cls-031" x="245.93" y="0">s</tspan>
+                  <tspan class="cls-032" x="257.19" y="0">.</tspan>
+                  <tspan class="cls-033" x="263.27" y="0">i</tspan>
+                  <tspan x="269.39" y="0">t</tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="nextbu col-lg-2 offset-lg-8">
+          <!-- <a href="../q/q6.html"> -->
+          <svg id="next1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 229.48 72.45">
+            <defs>
+              <style>
+                .cls-0001 {
+                  fill: none;
+                }
+
+                .cls-0002,
+                .cls-0005 {
+                  fill: #fff;
+                }
+
+                .cls-0003 {
+                  fill: url("#pois_bianchi");
+                }
+
+                .cls-0004 {
+                  stroke: #fff;
+                  stroke-miterlimit: 10;
+                  stroke-width: 2.46px;
+                }
+
+                .cls-0005 {
+                  font-size: 40px;
+                  font-family: var(--font-semibold);
+                  font-weight: 600;
+                }
+              </style>
+              <pattern id="pois_bianchi" data-name="pois bianchi" width="110" height="110" patternTransform="translate(0 94.89)" patternUnits="userSpaceOnUse" viewBox="0 0 110 110">
+                <rect class="cls-0001" width="110" height="110" />
+                <circle class="cls-0002" cx="110" cy="110" r="1.32" />
+                <circle class="cls-0002" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="110" r="1.32" />
+                <circle class="cls-0002" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="110" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="110" r="1.32" />
+                <circle class="cls-0002" r="1.32" />
+                <circle class="cls-0002" cx="11" r="1.32" />
+                <circle class="cls-0002" cx="22" r="1.32" />
+                <circle class="cls-0002" cx="33" r="1.32" />
+                <circle class="cls-0002" cx="44" r="1.32" />
+                <circle class="cls-0002" cx="55" r="1.32" />
+                <circle class="cls-0002" cx="65.45" r="1.32" />
+                <circle class="cls-0002" cx="77.55" r="1.32" />
+                <circle class="cls-0002" cx="88" r="1.32" />
+                <circle class="cls-0002" cx="99" r="1.32" />
+                <circle class="cls-0002" cx="110" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="5.5" r="1.32" />
+                <circle class="cls-0002" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="11" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="16.5" r="1.32" />
+                <circle class="cls-0002" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="22" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="27.5" r="1.32" />
+                <circle class="cls-0002" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="33" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="38.5" r="1.32" />
+                <circle class="cls-0002" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="44" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="49.5" r="1.32" />
+                <circle class="cls-0002" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="55" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="60.5" r="1.32" />
+                <circle class="cls-0002" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="66" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="71.5" r="1.32" />
+                <circle class="cls-0002" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="77" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="82.5" r="1.32" />
+                <circle class="cls-0002" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="88" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="93.5" r="1.32" />
+                <circle class="cls-0002" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="99" r="1.32" />
+                <circle class="cls-0002" cx="5.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="16.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="27.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="38.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="49.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="60.25" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="71.75" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="82.75" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="93.75" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cx="104.75" cy="104.5" r="1.32" />
+                <circle class="cls-0002" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="11" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="22" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="33" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="44" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="55" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="65.45" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="77.55" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="88" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="99" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="110" cy="110" r="1.32" />
+                <circle class="cls-0002" r="1.32" />
+                <circle class="cls-0002" cy="11" r="1.32" />
+                <circle class="cls-0002" cy="22" r="1.32" />
+                <circle class="cls-0002" cy="33" r="1.32" />
+                <circle class="cls-0002" cy="44" r="1.32" />
+                <circle class="cls-0002" cy="55" r="1.32" />
+                <circle class="cls-0002" cy="66" r="1.32" />
+                <circle class="cls-0002" cy="77" r="1.32" />
+                <circle class="cls-0002" cy="88" r="1.32" />
+                <circle class="cls-0002" cy="99" r="1.32" />
+                <circle class="cls-0002" cy="110" r="1.32" />
+                <circle class="cls-0002" cx="110" r="1.32" />
+                <circle class="cls-0002" r="1.32" />
+                <circle class="cls-0002" cx="11" r="1.32" />
+                <circle class="cls-0002" cx="22" r="1.32" />
+                <circle class="cls-0002" cx="33" r="1.32" />
+                <circle class="cls-0002" cx="44" r="1.32" />
+                <circle class="cls-0002" cx="55" r="1.32" />
+                <circle class="cls-0002" cx="65.45" r="1.32" />
+                <circle class="cls-0002" cx="77.55" r="1.32" />
+                <circle class="cls-0002" cx="88" r="1.32" />
+                <circle class="cls-0002" cx="99" r="1.32" />
+                <circle class="cls-0002" cx="110" r="1.32" />
+                <circle class="cls-0002" r="1.32" />
+              </pattern>
+            </defs>
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="BOTTONI">
+                <g id="Next01w">
+                  <rect id="ombra" class="cls-0003" x="9.77" y="10.23" width="219.71" height="62.22" />
+                  <rect id="colore" class="cls-0004" x="1.23" y="1.23" width="221.25" height="62.22" />
+                  <text class="cls-0005" transform="translate(23.24 45.28)">ВПЕРЕД &gt;</text>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <!-- </a> -->
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
